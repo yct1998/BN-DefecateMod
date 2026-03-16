@@ -230,7 +230,7 @@ msgstr "排便衝動 · 危急"
 #. ~ Description of effect 'Urge to Defecate · Critical'.
 #: .\toilet_needs_content.json
 msgid "You're about to lose control of your bowels."
-msgstr "你快要控制不住自己的腸道了。"
+msgstr "你快要憋不住了！"
 
 #: .\tn\logic.lua
 msgid "You relish this filthy delicacy.。"

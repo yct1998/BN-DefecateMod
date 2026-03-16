@@ -258,7 +258,7 @@ msgstr "你的排便冲动明显；最好尽快使用厕所。"
 
 #: .\tn\logic.lua
 msgid "You're about to lose the urge to hold it in!"
-msgstr "你快要失去憋住的冲动了！"
+msgstr "你快要憋不住了！"
 
 #: .\tn\logic.lua
 msgid "You don't feel like using the toilet for now."
