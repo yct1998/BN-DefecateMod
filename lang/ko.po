@@ -1,0 +1,366 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: toilet_needs_maint\n"
+"POT-Creation-Date: 2026-03-16 20:26+0800\n"
+"Language: ko\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: .\iuse.json
+msgid "Drink urine"
+msgstr "오줌 마시기"
+
+#: .\iuse.json
+msgid "Eat feces"
+msgstr "똥 먹기"
+
+#: .\modinfo.json .\tn\ui.lua
+msgid "Defecate"
+msgstr "배변하기"
+
+#. ~ Description for Defecate
+#: .\modinfo.json
+msgid ""
+"Based on the character's hydration and calorie changes, set urination and "
+"defecation needs for this character."
+msgstr "캐릭터의 수분 및 칼로리 변화를 기반으로 이 캐릭터의 배뇨 및 배변 욕구를 설정합니다."
+
+#: .\preload.lua .\tn\ui.lua
+msgid "Excretion Management"
+msgstr "배설 관리"
+
+#: .\toilet_needs_content.json
+msgid "You feel filthy and embarrassed"
+msgstr "더럽고 창피한 기분이 듭니다"
+
+#: .\toilet_needs_content.json
+msgid "Lower body is wet and extremely uncomfortable"
+msgstr "하반기가 젖어 매우 불편합니다"
+
+#: .\toilet_needs_content.json
+msgid "Lower body is covered in feces"
+msgstr "하반기가 똥으로 뒤덮여 있습니다"
+
+#: .\toilet_needs_content.json
+msgid "Not wiping clean makes you miserable"
+msgstr "깨끗이 닦지 않아 괴롭습니다"
+
+#: .\toilet_needs_content.json
+msgid "You feel nauseous after drinking urine"
+msgstr "오줌을 마신 후 메스꺼움을 느낍니다"
+
+#: .\toilet_needs_content.json
+msgid "Eating feces makes you extremely disgusted"
+msgstr "대변을 먹는 것은 극도로 역겹게 만듭니다"
+
+#: .\toilet_needs_content.json
+msgid "You actually enjoyed that filthy meal"
+msgstr "당신은 그 더러운 식사를 실제로 즐겼습니다"
+
+#: .\toilet_needs_content.json
+msgid "The filth on your body instead fills you with strength"
+msgstr "몸에 묻은 더러움은 오히려 당신에게 힘을 채워줍니다"
+
+#: .\toilet_needs_content.json
+msgid "Human urine"
+msgid_plural "Human urines"
+msgstr[0] "인간의 오줌"
+
+#. ~ Description for {'str': 'Human urine'}
+#: .\toilet_needs_content.json
+msgid ""
+"A warm, salty, turbid liquid that will only churn your stomach if drunk."
+msgstr "따뜻하고 짜며 탁한 액체로, 마시면 오직 속만 뒤집어놓을 것입니다."
+
+#: .\toilet_needs_content.json
+msgid "Human feces"
+msgid_plural "Human fecess"
+msgstr[0] "인간의 대변"
+
+#. ~ Description for {'str': 'Human feces'}
+#: .\toilet_needs_content.json
+msgid ""
+"A pile of disgusting human feces; attempting to eat it will make you vomit "
+"uncontrollably."
+msgstr "역겨운 인간 대변 더미; 먹으려 시도하면 통제할 수 없이 토하게 될 것입니다."
+
+#: .\toilet_needs_content.json
+msgid "Maggot Sea Maniac"
+msgstr "구더기 바다 광신자"
+
+#. ~ Description for {'str': 'Maggot Sea Maniac'}
+#: .\toilet_needs_content.json
+msgid ""
+"You have an unusual tolerance for filthy food. Eating feces and drinking "
+"urine brings you pleasure, and a dirty state also triggers your excitement."
+msgstr ""
+"당신은 더러운 음식에 대해 비범한 내성을 지녔습니다. 대변을 먹고 오줌을 마시는 것이 즐거움을 주며, 더러운 상태 또한 당신의 흥분을 "
+"유발합니다."
+
+#: .\toilet_needs_content.json
+msgctxt "profession_male"
+msgid "Old Eight"
+msgstr "올드 에이트"
+
+#: .\toilet_needs_content.json
+msgctxt "profession_female"
+msgid "Old Eight"
+msgstr "올드 에이트"
+
+#. ~ Profession (male Old Eight) description
+#: .\toilet_needs_content.json
+msgctxt "prof_desc_male"
+msgid ""
+"You are a master of toilet survival, living on with astonishingly strong "
+"tastes and adaptability."
+msgstr "당신은 화장실 생존의 달인으로, 놀라울 정도로 강한 취향과 적응력으로 살아가고 있습니다."
+
+#. ~ Profession (female Old Eight) description
+#: .\toilet_needs_content.json
+msgctxt "prof_desc_female"
+msgid ""
+"You are a master of toilet survival, living on with astonishingly strong "
+"tastes and adaptability."
+msgstr "당신은 화장실 생존의 달인으로, 놀라울 정도로 강한 취향과 적응력으로 살아가고 있습니다."
+
+#: .\toilet_needs_content.json
+msgid "Covered in filth"
+msgstr "오물로 뒤덮임"
+
+#. ~ Description of effect 'Covered in filth'.
+#: .\toilet_needs_content.json
+msgid "An accident left you filthy all over, feeling extremely uncomfortable."
+msgstr "사고로 온몸이 더러워져 매우 불쾌함을 느낍니다."
+
+#. ~ Apply message for effect(s) 'Covered in filth'.
+#: .\toilet_needs_content.json
+msgid "You accidentally soiled yourself."
+msgstr "실수로 몸을 더럽혔습니다."
+
+#. ~ Remove message for effect(s) 'Covered in filth'.
+#: .\toilet_needs_content.json
+msgid "After washing, you feel much cleaner."
+msgstr "씻은 후 훨씬 깨끗해진 기분입니다."
+
+#: .\toilet_needs_content.json
+msgid "Lower body soaked"
+msgstr "하반신이 흠뻑 젖음"
+
+#. ~ Description of effect 'Lower body soaked'.
+#: .\toilet_needs_content.json
+msgid "Lower body soaked in urine, cold and unbearable."
+msgstr "하반신이 오줌에 젖어 차갑고 견디기 힘듭니다."
+
+#: .\toilet_needs_content.json
+msgid "Lower body contaminated"
+msgstr "하반신이 오염됨"
+
+#. ~ Description of effect 'Lower body contaminated'.
+#: .\toilet_needs_content.json
+msgid "Feces have soiled your lower body, and the stench is unbearable."
+msgstr "대변이 하반신을 더럽혔고 악취가 참을 수 없습니다."
+
+#: .\toilet_needs_content.json
+msgid "Not wiped clean"
+msgstr "깨끗이 닦이지 않음"
+
+#. ~ Description of effect 'Not wiped clean'.
+#: .\toilet_needs_content.json
+msgid "Not wiping clean leaves you uncomfortable and embarrassed."
+msgstr "깨끗이 닦지 않으면 불편하고 창피합니다."
+
+#: .\toilet_needs_content.json
+msgid "Urge to Urinate · Mild"
+msgstr "소변 충동 · 약함"
+
+#. ~ Description of effect 'Urge to Urinate · Mild'.
+#: .\toilet_needs_content.json
+msgid "You're starting to feel a slight urge to urinate."
+msgstr "약간의 소변 충동을 느끼기 시작합니다."
+
+#: .\toilet_needs_content.json
+msgid "Urge to Urinate · Strong"
+msgstr "소변 충동 · 강함"
+
+#. ~ Description of effect 'Urge to Urinate · Strong'.
+#: .\toilet_needs_content.json
+msgid "You urgently need to find a place to relieve yourself."
+msgstr "당장 화장실을 찾아볼 필요가 있습니다."
+
+#: .\toilet_needs_content.json
+msgid "Urge to Urinate · Critical"
+msgstr "소변 충동 · 위급"
+
+#. ~ Description of effect 'Urge to Urinate · Critical'.
+#: .\toilet_needs_content.json
+msgid "You're about to lose control and wet yourself any moment."
+msgstr "언제든 통제력을 잃고 실금할 것 같습니다."
+
+#: .\toilet_needs_content.json
+msgid "Urge to Defecate · Mild"
+msgstr "대변 충동 · 약함"
+
+#. ~ Description of effect 'Urge to Defecate · Mild'.
+#: .\toilet_needs_content.json
+msgid "You're starting to feel a slight urge to defecate."
+msgstr "약간의 대변 충동을 느끼기 시작합니다."
+
+#: .\toilet_needs_content.json
+msgid "Urge to Defecate · Strong"
+msgstr "대변 충동 · 강함"
+
+#. ~ Description of effect 'Urge to Defecate · Strong'.
+#: .\toilet_needs_content.json
+msgid "You urgently need to go and defecate."
+msgstr "당신은 급히 배변을 가야 합니다."
+
+#: .\toilet_needs_content.json
+msgid "Urge to Defecate · Critical"
+msgstr "배변 욕구 · 위급"
+
+#. ~ Description of effect 'Urge to Defecate · Critical'.
+#: .\toilet_needs_content.json
+msgid "You're about to lose control of your bowels."
+msgstr "당신은 장 기능을 통제할 수 없게 될 지경입니다."
+
+#: .\tn\logic.lua
+msgid "You relish this filthy delicacy.。"
+msgstr "당신은 이 더러운 진미를 즐깁니다."
+
+#: .\tn\logic.lua
+msgid "The smell makes you nauseous and disgusted."
+msgstr "냄새가 메스꺼움과 혐오감을 불러일으킵니다."
+
+#: .\tn\logic.lua
+msgid "You almost vomited bile."
+msgstr "당신은 거의 담즙을 토할 뻔했습니다."
+
+#: .\tn\logic.lua
+msgid "You're starting to feel the urge to urinate."
+msgstr "당신은 배뇨 욕구를 느끼기 시작했습니다."
+
+#: .\tn\logic.lua
+msgid "Your urge to urinate is noticeable; it's best to use the toilet soon."
+msgstr "당신의 배뇨 욕구가 눈에 띄며, 곧 화장실을 이용하는 것이 좋습니다."
+
+#: .\tn\logic.lua
+msgid "You can barely hold it in!"
+msgstr "당신은 거의 참을 수 없습니다!"
+
+#: .\tn\logic.lua
+msgid "You're starting to feel the urge to defecate."
+msgstr "당신은 배변 욕구를 느끼기 시작했습니다."
+
+#: .\tn\logic.lua
+msgid "Your urge to defecate is noticeable; it's best to use the toilet soon."
+msgstr "배변 욕구가 느껴집니다. 곧 화장실을 이용하는 것이 좋겠습니다."
+
+#: .\tn\logic.lua
+msgid "You're about to lose the urge to hold it in!"
+msgstr "더 이상 참기 힘들 정도입니다!"
+
+#: .\tn\logic.lua
+msgid "You don't feel like using the toilet for now."
+msgstr "지금은 화장실을 사용할 필요가 없습니다."
+
+#: .\tn\logic.lua
+msgid "You didn't use toilet paper to wipe, and your mood worsened."
+msgstr "휴지로 닦지 않아 기분이 나빠졌습니다."
+
+#: .\tn\logic.lua
+msgid "You didn't wipe and instead found it even more thrilling."
+msgstr "닦지 않고 오히려 더 스릴을 느꼈습니다."
+
+#: .\tn\logic.lua
+msgid "You used paper to wipe."
+msgstr "휴지로 닦았습니다."
+
+#: .\tn\logic.lua
+msgid ""
+"Your urge to urinate is extremely severe; holding it further might lead to "
+"wetting yourself. Go to urinate now? "
+msgstr "소변 욕구가 극심합니다; 더 참으면 실수할 수 있습니다. 지금 소변을 보시겠습니까? "
+
+#: .\tn\logic.lua
+msgid "You quickly relieved your urge to urinate."
+msgstr "소변 욕구를 빠르게 해소했습니다."
+
+#: .\tn\logic.lua
+msgid ""
+"You have lost control of your bladder, and the lower half of your body is "
+"soiled with urine."
+msgstr "방광 통제력을 잃었고, 하반신이 소변으로 더럽혀졌습니다."
+
+#: .\tn\logic.lua
+msgid ""
+"After losing control, you feel a strange satisfaction, with your lower body "
+"soiled by urine."
+msgstr "통제력을 잃은 후, 이상한 만족감을 느끼며 하반신이 소변으로 더럽혀졌습니다."
+
+#: .\tn\logic.lua
+msgid ""
+"You have lost control of your bowels, and your buttocks and lower body are "
+"soiled with feces."
+msgstr "당신은 장 기능을 통제하지 못해 엉덩이와 하반기가 대변으로 더럽혀졌습니다."
+
+#: .\tn\ui.lua
+msgid "Urinate"
+msgstr "소변 보기"
+
+#: .\tn\ui.lua
+msgid "Both"
+msgstr "둘 다"
+
+#: .\tn\ui.lua
+msgid "Check Status"
+msgstr "상태 확인"
+
+#: .\tn\ui.lua
+msgid "Wash off contamination with water"
+msgstr "물로 오염물 씻어내기"
+
+#: .\tn\ui.lua
+msgid "You need water to wash off the contamination."
+msgstr "오염물을 씻어내려면 물이 필요합니다."
+
+#: .\tn\ui.lua
+msgid "You used water to wash off the bodily contamination."
+msgstr "당신은 물을 사용해 신체 오염물을 씻어냈습니다."
+
+#: .\tn\ui.lua
+msgid "You currently have no contamination that needs washing off."
+msgstr "현재 씻어낼 오염물이 없습니다."
+
+#: .\tn\ui.lua
+msgid "No contamination"
+msgstr "오염 없음"
+
+#: .\tn\ui.lua
+msgid "Fecal contamination"
+msgstr "대변 오염"
+
+#: .\tn\ui.lua
+msgid "Urine contamination"
+msgstr "오염된 소변"
+
+#: .\tn\ui.lua
+#, c-format
+msgid ""
+"Current urge to urinate %.1f / 100 (reserve %.1f), urge to defecate %.1f / "
+"100 (reserve %.1f), bodily contamination: %s."
+msgstr "현재 소변 충동 %.1f / 100 (잔여 %.1f), 배변 충동 %.1f / 100 (잔여 %.1f), 신체 오염: %s."
+
+#: .\tn\ui.lua
+msgid "You have completely taken care of your physiological needs."
+msgstr "생리적 욕구를 완전히 해결했습니다."
+
+#: .\tn\ui.lua
+msgid "You have defecated, and your abdomen feels relieved."
+msgstr "배변을 마치고 복부가 편안해졌습니다."
+
+#: .\tn\ui.lua
+msgid "You have urinated and feel much more comfortable."
+msgstr "소변을 보니 훨씬 편안해졌습니다."

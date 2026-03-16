@@ -1,0 +1,364 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: toilet_needs_maint\n"
+"POT-Creation-Date: 2026-03-16 20:04+0800\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: .\iuse.json
+msgid "Drink urine"
+msgstr "饮用尿液"
+
+#: .\iuse.json
+msgid "Eat feces"
+msgstr "食用粪便"
+
+#: .\modinfo.json .\tn\ui.lua
+msgid "Defecate"
+msgstr "拉屎"
+
+#. ~ Description for Defecate
+#: .\modinfo.json
+msgid ""
+"Based on the character's hydration and calorie changes, set urination and "
+"defecation needs for this character."
+msgstr "根据角色的水分和热量变化，为该角色设置排尿和排便需求。"
+
+#: .\preload.lua .\tn\ui.lua
+msgid "Excretion Management"
+msgstr "排泄管理"
+
+#: .\toilet_needs_content.json
+msgid "You feel filthy and embarrassed"
+msgstr "你感到肮脏且尴尬"
+
+#: .\toilet_needs_content.json
+msgid "Lower body is wet and extremely uncomfortable"
+msgstr "下半身潮湿，极其不适"
+
+#: .\toilet_needs_content.json
+msgid "Lower body is covered in feces"
+msgstr "下半身沾满粪便"
+
+#: .\toilet_needs_content.json
+msgid "Not wiping clean makes you miserable"
+msgstr "未擦拭干净让你痛苦不堪"
+
+#: .\toilet_needs_content.json
+msgid "You feel nauseous after drinking urine"
+msgstr "饮用尿液后你感到恶心"
+
+#: .\toilet_needs_content.json
+msgid "Eating feces makes you extremely disgusted"
+msgstr "食用粪便让你极度厌恶"
+
+#: .\toilet_needs_content.json
+msgid "You actually enjoyed that filthy meal"
+msgstr "你竟然享受了那顿肮脏的餐食"
+
+#: .\toilet_needs_content.json
+msgid "The filth on your body instead fills you with strength"
+msgstr "身上的污秽反而让你充满力量"
+
+#: .\toilet_needs_content.json
+msgid "Human urine"
+msgid_plural "Human urines"
+msgstr[0] "人类尿液"
+
+#. ~ Description for {'str': 'Human urine'}
+#: .\toilet_needs_content.json
+msgid ""
+"A warm, salty, turbid liquid that will only churn your stomach if drunk."
+msgstr "一种温热、咸涩、浑浊的液体，饮用只会让你反胃。"
+
+#: .\toilet_needs_content.json
+msgid "Human feces"
+msgid_plural "Human fecess"
+msgstr[0] "人类粪便"
+
+#. ~ Description for {'str': 'Human feces'}
+#: .\toilet_needs_content.json
+msgid ""
+"A pile of disgusting human feces; attempting to eat it will make you vomit "
+"uncontrollably."
+msgstr "一堆恶心的人类粪便；尝试食用会让你呕吐不止。"
+
+#: .\toilet_needs_content.json
+msgid "Maggot Sea Maniac"
+msgstr "粪海狂蛆"
+
+#. ~ Description for {'str': 'Maggot Sea Maniac'}
+#: .\toilet_needs_content.json
+msgid ""
+"You have an unusual tolerance for filthy food. Eating feces and drinking "
+"urine brings you pleasure, and a dirty state also triggers your excitement."
+msgstr "你对人类粪便有着异常的耐受性。食用粪便和饮用尿液能带来快感，肮脏的状态也会激发你的兴奋。"
+
+#: .\toilet_needs_content.json
+msgctxt "profession_male"
+msgid "Old Eight"
+msgstr "老八"
+
+#: .\toilet_needs_content.json
+msgctxt "profession_female"
+msgid "Old Eight"
+msgstr "老八"
+
+#. ~ Profession (male Old Eight) description
+#: .\toilet_needs_content.json
+msgctxt "prof_desc_male"
+msgid ""
+"You are a master of toilet survival, living on with astonishingly strong "
+"tastes and adaptability."
+msgstr "你是厕所生存大师，以惊人的强韧口味和适应力继续存活。"
+
+#. ~ Profession (female Old Eight) description
+#: .\toilet_needs_content.json
+msgctxt "prof_desc_female"
+msgid ""
+"You are a master of toilet survival, living on with astonishingly strong "
+"tastes and adaptability."
+msgstr "你是厕所生存大师，以惊人的强韧口味和适应力继续存活。"
+
+#: .\toilet_needs_content.json
+msgid "Covered in filth"
+msgstr "浑身污秽"
+
+#. ~ Description of effect 'Covered in filth'.
+#: .\toilet_needs_content.json
+msgid "An accident left you filthy all over, feeling extremely uncomfortable."
+msgstr "一场意外让你浑身污秽，感觉极其不适。"
+
+#. ~ Apply message for effect(s) 'Covered in filth'.
+#: .\toilet_needs_content.json
+msgid "You accidentally soiled yourself."
+msgstr "你不小心弄脏了自己。"
+
+#. ~ Remove message for effect(s) 'Covered in filth'.
+#: .\toilet_needs_content.json
+msgid "After washing, you feel much cleaner."
+msgstr "清洗过后，你感觉干净多了。"
+
+#: .\toilet_needs_content.json
+msgid "Lower body soaked"
+msgstr "下半身浸湿"
+
+#. ~ Description of effect 'Lower body soaked'.
+#: .\toilet_needs_content.json
+msgid "Lower body soaked in urine, cold and unbearable."
+msgstr "下半身被尿液浸湿，冰冷难耐。"
+
+#: .\toilet_needs_content.json
+msgid "Lower body contaminated"
+msgstr "下半身污染"
+
+#. ~ Description of effect 'Lower body contaminated'.
+#: .\toilet_needs_content.json
+msgid "Feces have soiled your lower body, and the stench is unbearable."
+msgstr "粪便弄脏了你的下半身，恶臭难闻。"
+
+#: .\toilet_needs_content.json
+msgid "Not wiped clean"
+msgstr "未擦拭干净"
+
+#. ~ Description of effect 'Not wiped clean'.
+#: .\toilet_needs_content.json
+msgid "Not wiping clean leaves you uncomfortable and embarrassed."
+msgstr "没有擦干净让你感到不适和尴尬。"
+
+#: .\toilet_needs_content.json
+msgid "Urge to Urinate · Mild"
+msgstr "尿意·轻微"
+
+#. ~ Description of effect 'Urge to Urinate · Mild'.
+#: .\toilet_needs_content.json
+msgid "You're starting to feel a slight urge to urinate."
+msgstr "你开始感到轻微的尿意。"
+
+#: .\toilet_needs_content.json
+msgid "Urge to Urinate · Strong"
+msgstr "尿意·强烈"
+
+#. ~ Description of effect 'Urge to Urinate · Strong'.
+#: .\toilet_needs_content.json
+msgid "You urgently need to find a place to relieve yourself."
+msgstr "你急需找个地方解决内急。"
+
+#: .\toilet_needs_content.json
+msgid "Urge to Urinate · Critical"
+msgstr "尿意·危急"
+
+#. ~ Description of effect 'Urge to Urinate · Critical'.
+#: .\toilet_needs_content.json
+msgid "You're about to lose control and wet yourself any moment."
+msgstr "你随时可能失控而尿湿自己。"
+
+#: .\toilet_needs_content.json
+msgid "Urge to Defecate · Mild"
+msgstr "便意·轻微"
+
+#. ~ Description of effect 'Urge to Defecate · Mild'.
+#: .\toilet_needs_content.json
+msgid "You're starting to feel a slight urge to defecate."
+msgstr "你开始感到轻微的便意。"
+
+#: .\toilet_needs_content.json
+msgid "Urge to Defecate · Strong"
+msgstr "便意·强烈"
+
+#. ~ Description of effect 'Urge to Defecate · Strong'.
+#: .\toilet_needs_content.json
+msgid "You urgently need to go and defecate."
+msgstr "你急需去排便。"
+
+#: .\toilet_needs_content.json
+msgid "Urge to Defecate · Critical"
+msgstr "排便冲动 · 危急"
+
+#. ~ Description of effect 'Urge to Defecate · Critical'.
+#: .\toilet_needs_content.json
+msgid "You're about to lose control of your bowels."
+msgstr "你快要控制不住自己的肠道了。"
+
+#: .\tn\logic.lua
+msgid "You relish this filthy delicacy.。"
+msgstr "你津津有味地享用着这道肮脏的美味。"
+
+#: .\tn\logic.lua
+msgid "The smell makes you nauseous and disgusted."
+msgstr "这气味让你感到恶心和厌恶。"
+
+#: .\tn\logic.lua
+msgid "You almost vomited bile."
+msgstr "你差点吐出了胆汁。"
+
+#: .\tn\logic.lua
+msgid "You're starting to feel the urge to urinate."
+msgstr "你开始感到尿意。"
+
+#: .\tn\logic.lua
+msgid "Your urge to urinate is noticeable; it's best to use the toilet soon."
+msgstr "你的尿意明显；最好尽快使用厕所。"
+
+#: .\tn\logic.lua
+msgid "You can barely hold it in!"
+msgstr "你几乎要憋不住了！"
+
+#: .\tn\logic.lua
+msgid "You're starting to feel the urge to defecate."
+msgstr "你开始感到排便的冲动。"
+
+#: .\tn\logic.lua
+msgid "Your urge to defecate is noticeable; it's best to use the toilet soon."
+msgstr "你的排便冲动明显；最好尽快使用厕所。"
+
+#: .\tn\logic.lua
+msgid "You're about to lose the urge to hold it in!"
+msgstr "你快要失去憋住的冲动了！"
+
+#: .\tn\logic.lua
+msgid "You don't feel like using the toilet for now."
+msgstr "你暂时不想使用厕所。"
+
+#: .\tn\logic.lua
+msgid "You didn't use toilet paper to wipe, and your mood worsened."
+msgstr "你没有用厕纸擦拭，心情变差了。"
+
+#: .\tn\logic.lua
+msgid "You didn't wipe and instead found it even more thrilling."
+msgstr "你没有擦拭，反而觉得更加刺激。"
+
+#: .\tn\logic.lua
+msgid "You used paper to wipe."
+msgstr "你用纸擦拭了。"
+
+#: .\tn\logic.lua
+msgid ""
+"Your urge to urinate is extremely severe; holding it further might lead to "
+"wetting yourself. Go to urinate now? "
+msgstr "你的尿意极其严重；再憋下去可能会导致尿湿自己。现在去小便吗？"
+
+#: .\tn\logic.lua
+msgid "You quickly relieved your urge to urinate."
+msgstr "你迅速缓解了尿意。"
+
+#: .\tn\logic.lua
+msgid ""
+"You have lost control of your bladder, and the lower half of your body is "
+"soiled with urine."
+msgstr "你失去了对膀胱的控制，下半身被尿液弄脏了。"
+
+#: .\tn\logic.lua
+msgid ""
+"After losing control, you feel a strange satisfaction, with your lower body "
+"soiled by urine."
+msgstr "失控后，你感到一种奇怪的满足感，下半身被尿液弄脏了。"
+
+#: .\tn\logic.lua
+msgid ""
+"You have lost control of your bowels, and your buttocks and lower body are "
+"soiled with feces."
+msgstr "你已失去对肠道的控制，臀部及下半身被粪便污染。"
+
+#: .\tn\ui.lua
+msgid "Urinate"
+msgstr "排尿"
+
+#: .\tn\ui.lua
+msgid "Both"
+msgstr "两者皆有"
+
+#: .\tn\ui.lua
+msgid "Check Status"
+msgstr "查看状态"
+
+#: .\tn\ui.lua
+msgid "Wash off contamination with water"
+msgstr "用水清洗污染"
+
+#: .\tn\ui.lua
+msgid "You need water to wash off the contamination."
+msgstr "你需要用水来清洗污染。"
+
+#: .\tn\ui.lua
+msgid "You used water to wash off the bodily contamination."
+msgstr "你用水清洗了身体上的污染。"
+
+#: .\tn\ui.lua
+msgid "You currently have no contamination that needs washing off."
+msgstr "你目前没有需要清洗的污染。"
+
+#: .\tn\ui.lua
+msgid "No contamination"
+msgstr "无污染"
+
+#: .\tn\ui.lua
+msgid "Fecal contamination"
+msgstr "粪便污染"
+
+#: .\tn\ui.lua
+msgid "Urine contamination"
+msgstr "尿液污染"
+
+#: .\tn\ui.lua
+#, c-format
+msgid ""
+"Current urge to urinate %.1f / 100 (reserve %.1f), urge to defecate %.1f / "
+"100 (reserve %.1f), bodily contamination: %s."
+msgstr "当前排尿欲望 %.1f / 100（储备 %.1f），排便欲望 %.1f / 100（储备 %.1f），身体污染：%s。"
+
+#: .\tn\ui.lua
+msgid "You have completely taken care of your physiological needs."
+msgstr "你已完全处理好生理需求。"
+
+#: .\tn\ui.lua
+msgid "You have defecated, and your abdomen feels relieved."
+msgstr "你已排便，腹部感到轻松。"
+
+#: .\tn\ui.lua
+msgid "You have urinated and feel much more comfortable."
+msgstr "你已排尿，感觉舒适多了。"

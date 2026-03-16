@@ -1,0 +1,12 @@
+[
+  {
+    "type": "item_action",
+    "id": "TN_DRINK_URINE",
+    "name": { "str": "Drink urine" }
+  },
+  {
+    "type": "item_action",
+    "id": "TN_EAT_FECES",
+    "name": { "str": "Eat feces" }
+  }
+]

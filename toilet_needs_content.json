@@ -1,0 +1,344 @@
+[
+  {
+    "type": "morale_type",
+    "id": "morale_tn_soiled",
+    "text": "You feel filthy and embarrassed",
+    "permanent": true
+  },
+  {
+    "type": "morale_type",
+    "id": "morale_tn_wet_pants",
+    "text": "Lower body is wet and extremely uncomfortable",
+    "permanent": true
+  },
+  {
+    "type": "morale_type",
+    "id": "morale_tn_poop_pants",
+    "text": "Lower body is covered in feces",
+    "permanent": true
+  },
+  {
+    "type": "morale_type",
+    "id": "morale_tn_no_wipe",
+    "text": "Not wiping clean makes you miserable",
+    "permanent": true
+  },
+  {
+    "type": "morale_type",
+    "id": "morale_tn_urine_disgust",
+    "text": "You feel nauseous after drinking urine",
+    "permanent": true
+  },
+  {
+    "type": "morale_type",
+    "id": "morale_tn_feces_disgust",
+    "text": "Eating feces makes you extremely disgusted",
+    "permanent": true
+  },
+  {
+    "type": "morale_type",
+    "id": "morale_tn_laoba_feast",
+    "text": "You actually enjoyed that filthy meal",
+    "permanent": true
+  },
+  {
+    "type": "morale_type",
+    "id": "morale_tn_laoba_dirty",
+    "text": "The filth on your body instead fills you with strength",
+    "permanent": true
+  },
+  {
+    "id": "tn_urine",
+    "type": "COMESTIBLE",
+    "copy-from": "water_clean",
+    "name": {
+      "str": "Human urine"
+    },
+    "description": "A warm, salty, turbid liquid that will only churn your stomach if drunk.",
+    "category": "food",
+    "calories": 0,
+    "quench": 7,
+    "fun": 0,
+    "healthy": -20,
+    "spoils_in": "12 h",
+    "material": [
+      "water"
+    ],
+    "color": "yellow",
+    "comestible_type": "DRINK",
+    "use_action": "TN_DRINK_URINE",
+    "parasites": 32,
+    "flags": [
+      "TRADER_AVOID",
+      "UNSAFE_CONSUME"
+    ]
+  },
+  {
+    "id": "tn_human_feces",
+    "type": "COMESTIBLE",
+    "name": {
+      "str": "Human feces"
+    },
+    "description": "A pile of disgusting human feces; attempting to eat it will make you vomit uncontrollably.",
+    "category": "food",
+    "looks_like": "feces_manure",
+    "weight": "250 g",
+    "volume": "250 ml",
+    "comestible_type": "FOOD",
+    "spoils_in": "4 days 16 hours",
+    "calories": 50,
+    "quench": -8,
+    "fun": 0,
+    "healthy": -10,
+    "material": [
+      "flesh"
+    ],
+    "use_action": "TN_EAT_FECES",
+    "parasites": 64,
+    "charges": 1,
+    "symbol": "%",
+    "color": "brown",
+    "stack_size": 4,
+    "flags": [
+      "TRADER_AVOID",
+      "UNSAFE_CONSUME"
+    ]
+  },
+  {
+    "type": "mutation",
+    "id": "TN_FENHAI_KUANGQU",
+    "name": {
+      "str": "Maggot Sea Maniac"
+    },
+    "points": 2,
+    "starting_trait": true,
+    "description": "You have an unusual tolerance for filthy food. Eating feces and drinking urine brings you pleasure, and a dirty state also triggers your excitement."
+  },
+  {
+    "type": "profession",
+    "id": "tn_laoba",
+    "name": "Old Eight",
+    "description": "You are a master of toilet survival, living on with astonishingly strong tastes and adaptability.",
+    "points": 1,
+    "traits": [
+      "TN_FENHAI_KUANGQU"
+    ],
+    "items": {
+      "both": {
+        "items": [
+          "rag",
+          "water_clean"
+        ]
+      }
+    }
+  },
+  {
+    "type": "effect_type",
+    "id": "tn_soiled",
+    "name": [
+      "Covered in filth"
+    ],
+    "desc": [
+      "An accident left you filthy all over, feeling extremely uncomfortable."
+    ],
+    "apply_message": "You accidentally soiled yourself.",
+    "remove_message": "After washing, you feel much cleaner.",
+    "morale": "morale_tn_soiled",
+    "rating": "bad",
+    "max_duration": "4 h",
+    "base_mods": {
+      "morale": [
+        -35
+      ],
+      "speed_mod": [
+        -12
+      ],
+      "per_mod": [
+        -2
+      ]
+    }
+  },
+  {
+    "type": "effect_type",
+    "id": "tn_wet_pants",
+    "name": [
+      "Lower body soaked"
+    ],
+    "desc": [
+      "Lower body soaked in urine, cold and unbearable."
+    ],
+    "morale": "morale_tn_wet_pants",
+    "rating": "bad",
+    "max_duration": "3 h",
+    "base_mods": {
+      "morale": [
+        -20
+      ],
+      "speed_mod": [
+        -5
+      ],
+      "per_mod": [
+        -1
+      ]
+    }
+  },
+  {
+    "type": "effect_type",
+    "id": "tn_poop_pants",
+    "name": [
+      "Lower body contaminated"
+    ],
+    "desc": [
+      "Feces have soiled your lower body, and the stench is unbearable."
+    ],
+    "morale": "morale_tn_poop_pants",
+    "rating": "bad",
+    "max_duration": "6 h",
+    "base_mods": {
+      "morale": [
+        -40
+      ],
+      "speed_mod": [
+        -10
+      ],
+      "per_mod": [
+        -2
+      ]
+    }
+  },
+  {
+    "type": "effect_type",
+    "id": "tn_no_wipe",
+    "name": [
+      "Not wiped clean"
+    ],
+    "desc": [
+      "Not wiping clean leaves you uncomfortable and embarrassed."
+    ],
+    "morale": "morale_tn_no_wipe",
+    "rating": "bad",
+    "max_duration": "90 m",
+    "base_mods": {
+      "morale": [
+        -18
+      ],
+      "speed_mod": [
+        -2
+      ]
+    }
+  },
+  {
+    "type": "effect_type",
+    "id": "tn_urge_pee_1",
+    "name": [
+      "Urge to Urinate · Mild"
+    ],
+    "desc": [
+      "You're starting to feel a slight urge to urinate."
+    ],
+    "rating": "mixed",
+    "max_duration": "20 m",
+    "base_mods": {
+      "per_mod": [
+        -1
+      ]
+    }
+  },
+  {
+    "type": "effect_type",
+    "id": "tn_urge_pee_2",
+    "name": [
+      "Urge to Urinate · Strong"
+    ],
+    "desc": [
+      "You urgently need to find a place to relieve yourself."
+    ],
+    "rating": "bad",
+    "max_duration": "20 m",
+    "base_mods": {
+      "per_mod": [
+        -2
+      ],
+      "speed_mod": [
+        -4
+      ]
+    }
+  },
+  {
+    "type": "effect_type",
+    "id": "tn_urge_pee_3",
+    "name": [
+      "Urge to Urinate · Critical"
+    ],
+    "desc": [
+      "You're about to lose control and wet yourself any moment."
+    ],
+    "rating": "bad",
+    "max_duration": "20 m",
+    "base_mods": {
+      "per_mod": [
+        -3
+      ],
+      "speed_mod": [
+        -8
+      ]
+    }
+  },
+  {
+    "type": "effect_type",
+    "id": "tn_urge_poo_1",
+    "name": [
+      "Urge to Defecate · Mild"
+    ],
+    "desc": [
+      "You're starting to feel a slight urge to defecate."
+    ],
+    "rating": "mixed",
+    "max_duration": "20 m",
+    "base_mods": {
+      "per_mod": [
+        -1
+      ]
+    }
+  },
+  {
+    "type": "effect_type",
+    "id": "tn_urge_poo_2",
+    "name": [
+      "Urge to Defecate · Strong"
+    ],
+    "desc": [
+      "You urgently need to go and defecate."
+    ],
+    "rating": "bad",
+    "max_duration": "20 m",
+    "base_mods": {
+      "per_mod": [
+        -2
+      ],
+      "speed_mod": [
+        -4
+      ]
+    }
+  },
+  {
+    "type": "effect_type",
+    "id": "tn_urge_poo_3",
+    "name": [
+      "Urge to Defecate · Critical"
+    ],
+    "desc": [
+      "You're about to lose control of your bowels."
+    ],
+    "rating": "bad",
+    "max_duration": "20 m",
+    "base_mods": {
+      "per_mod": [
+        -3
+      ],
+      "speed_mod": [
+        -8
+      ]
+    }
+  }
+]
